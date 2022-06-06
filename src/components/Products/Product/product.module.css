@@ -1,0 +1,15 @@
+.grid{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
